@@ -65,3 +65,11 @@ p, label {
 button:hover {
     border: 0.2rem solid black;
 }
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40rem;
+    height: 90rem;
+    border: 0.1rem solid rgb(29, 29, 255);
+}
