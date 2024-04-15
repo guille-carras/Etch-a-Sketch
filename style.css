@@ -55,7 +55,7 @@ p, label {
 .first-section button, .second-section button {
     padding: 0.5rem;
     background-color: rgb(29, 29, 255);
-    border: none;
+    border: 0.2rem solid transparent;
     border-radius: 0.4rem;
     color: rgb(235, 235, 243);
     font-size: 1.4rem;
@@ -63,13 +63,17 @@ p, label {
 }
 
 button:hover {
-    border: 0.2rem solid black;
+    border: 0.2rem solid rgb(36, 36, 100);
+    cursor: pointer;
 }
 
 #container {
     display: flex;
     flex-wrap: wrap;
-    width: 40rem;
-    height: 90rem;
-    border: 0.1rem solid rgb(29, 29, 255);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 70rem;
+    height: 70rem;
 }
+
